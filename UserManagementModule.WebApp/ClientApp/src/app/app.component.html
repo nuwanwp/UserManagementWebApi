@@ -1,0 +1,29 @@
+<body>
+  <mat-toolbar color="primary" class="toolbar">
+    <button mat-icon-button (click)="drawer.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <h1 class="app-name">User Management Application</h1>
+  </mat-toolbar>
+
+  <mat-drawer-container class="container" autosize>
+    <mat-drawer #drawer class="sidenav" mode="side" [opened]="true">
+
+      <mat-nav-list>
+        <mat-list-item  class="parent" (click)="navigate('/user-groups')">
+          <span class="full-width">User Groups</span>
+          <mat-icon mat-list-icon>group</mat-icon>         
+        </mat-list-item>
+      </mat-nav-list>
+
+
+    </mat-drawer>
+
+    <router-outlet></router-outlet>
+
+
+  </mat-drawer-container>
+
+
+
+</body>

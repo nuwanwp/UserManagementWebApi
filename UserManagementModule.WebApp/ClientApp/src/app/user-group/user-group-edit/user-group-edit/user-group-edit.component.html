@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>Update</h1>
+<div mat-dialog-content>
+
+    <form name="form" #f="ngForm" novalidate>
+        <mat-form-field class="example-form-field" appearance="fill">
+            <mat-label>Group Name</mat-label>
+            <input type="text" matInput class="form-control" name="groupName" [(ngModel)]="dialogData?.data.groupName" #firstName="ngModel"/>
+        </mat-form-field>
+    </form>
+
+</div>
+<div mat-dialog-actions>
+    <button mat-button mat-dialog-close>Close</button>
+    <button mat-raised-button color="primary">Save</button>
+</div>
