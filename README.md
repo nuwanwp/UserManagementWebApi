@@ -39,4 +39,8 @@ Er diagram
 -----------
 ![image](https://user-images.githubusercontent.com/5194602/175423870-660df286-4aee-4e97-b0c3-c124adfff828.png)
 
-   
+DataBase schema
+--------------------
+[DATABASE_SCHEMA.txt](https://github.com/nuwanwp/UserManagementWebApi/files/8971749/DATABASE_SCHEMA.txt)
+
+
