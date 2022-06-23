@@ -28,4 +28,10 @@ To run application application
 locate the ClientApp directory and run following command
 npm run start-local
 
+Swagger as follows
+------------------
+![image](https://user-images.githubusercontent.com/5194602/175422595-82572811-ac17-4c1c-bb21-44aa5da6bd51.png)
+
+
+
    
