@@ -1,7 +1,8 @@
 Read me
 -----------------------------
-Items covered 
 
+Items covered 
+----------------------
 1. Created domain models and database table by using CodeFirst
 2. Migration script created with seed data
 3. I have used TPT approach for mapping inheritence having comparing both TPH and TPC apporaches
@@ -14,10 +15,11 @@ Items covered
 10. For the angular app I have used material theme and material components
 
 Items not covered 
-
+----------------------
 1. Crud operation for other entities
 2. Other required UI for frontend application
 3. Conntection string not moved to appsetiings.json file
+4. I have extend the DbContext class to enable the auditing information for all tables. I just used hardcoded username as "nuwanw" as created and modified user.This need to be handled through the http header. But I couldn't make it available on header and complete it.
 
 HOw to Run
 ---------------
