@@ -35,5 +35,8 @@ Swagger as follows
 ![image](https://user-images.githubusercontent.com/5194602/175422595-82572811-ac17-4c1c-bb21-44aa5da6bd51.png)
 
 
+Er diagram
+-----------
+![image](https://user-images.githubusercontent.com/5194602/175423870-660df286-4aee-4e97-b0c3-c124adfff828.png)
 
    
